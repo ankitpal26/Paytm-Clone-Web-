@@ -1,9 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
-
-*{
+body{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+.navbar {
+    height: 50px;
+    width: 100%;
+    display: flex;
 }
 
+.left {
+     width: 15%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-left: 50px;
+    
+ }
+
+.middle{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 80px;
+
+}
+
+.right {
+    width: 20%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.sub-links {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.account {
+    display: flex;
+    justify-content: center;
+    background-color: #00baf2;
+    padding: 2px 2px 2px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.avatar{
+    margin-left: 10px;
+}
